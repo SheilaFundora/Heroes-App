@@ -3,7 +3,6 @@ import HeroCard from "../heroes/HeroCard";
 import {useForm} from "../../hooks/useForm";
 import { useNavigate} from "react-router";
 import {getHeroesByName} from "../../selectors/getHeroesByName";
-const queryString = require('query-string');
 
 
 const SearchPage = () => {
