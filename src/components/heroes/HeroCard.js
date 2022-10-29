@@ -6,7 +6,7 @@ const HeroCard = ( { id, superhero, alter_ego, first_appearance, characters} ) =
         <div className="card mt-5" style={ {maxWidth: 430}}>
             <div className="row">
                 <div className="col-md-4">
-                    <img src={ `/assets/${ id }.jpg` } className="card-img" alt={ superhero } />
+                    <img src={ `./assets/${ id }.jpg` } className="card-img" alt={ superhero } />
                 </div>
 
                 <div className="col-md-8">
@@ -23,7 +23,7 @@ const HeroCard = ( { id, superhero, alter_ego, first_appearance, characters} ) =
                             <small className="text-muted"> { first_appearance } </small>
                         </p>
 
-                        <Link to={ `/Heroes-App/hero/${ id }` }>
+                        <Link to={ `/hero/${ id }` }>
                             Más...
                         </Link>
 

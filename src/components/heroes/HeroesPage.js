@@ -9,7 +9,7 @@ const HeroesPage = () => {
     const hero = useMemo(() => getHeroById(heroeId), [heroeId]);
 
     if ( !hero ){
-        return <Navigate to="/Heroe-App/" />
+        return <Navigate to="/" />
     }
 
     const {superhero, alter_ego, first_appearance, characters,publisher} = hero;
@@ -24,7 +24,7 @@ const HeroesPage = () => {
         <div className="row mt-5">
             <div className="col-4">
                 <img
-                    src={ `/assets/${ heroeId }.jpg` }
+                    src={ `../assets/${ heroeId }.jpg` }
                     alt={ superhero }
                     className="img-thumbnail animate__animated animate__fadeInLeft"
                 />

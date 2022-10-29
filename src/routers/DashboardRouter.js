@@ -14,11 +14,11 @@ const DashboardRouter = () => {
 
             <div className='container mt-2'>
                 <Routes>
-                    <Route exact path = "/Heroes-App/marvel" element = { <MarvelPage />} />
-                    <Route exact path = "/Heroes-App/" element = { <All />} />
-                    <Route exact path = "/Heroes-App/dc" element = { <DCPage />} />
-                    <Route exact path = "/Heroes-App/search" element = { <SearchPage />} />
-                    <Route exact path="/Heroes-App/hero/:heroeId" element={ <HeroesPage /> } />
+                    <Route exact path = "/marvel" element = { <MarvelPage />} />
+                    <Route exact path = "/" element = { <All />} />
+                    <Route exact path = "/dc/" element = { <DCPage />} />
+                    <Route exact path = "/search" element = { <SearchPage />} />
+                    <Route exact path="/hero/:heroeId" element={ <HeroesPage /> } />
 
                     <Route render={() => <Navigate to="/marvel" />} />
                 </Routes>

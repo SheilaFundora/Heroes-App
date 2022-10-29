@@ -10,7 +10,7 @@ const SearchPage = () => {
 
     const handleSearch = (e) =>{
         e.preventDefault();
-        navigation(`/Heroes-App/search/?=${searchText}`);
+        navigation(`/search/?=${searchText}`);
     }
 
     const [formValues, handleInputChange] = useForm({searchText:'' });

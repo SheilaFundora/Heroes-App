@@ -7,7 +7,7 @@ export const Navbar = () => {
 
             <Link
                 className="navbar-brand"
-                to="/Heroes-App/"
+                to="/"
             >
                 Associations
             </Link>
@@ -17,21 +17,21 @@ export const Navbar = () => {
 
                     <NavLink
                         className="nav-item nav-link"
-                        to="/Heroes-App/marvel"
+                        to="/marvel"
                     >
                         Marvel
                     </NavLink>
 
                     <NavLink
                         className="nav-item nav-link ms-4"
-                        to="/Heroes-App/dc"
+                        to="/dc"
                     >
                         DC
                     </NavLink>
 
                     <NavLink
                         className="nav-item nav-link ms-4"
-                        to="/Heroes-App/search"
+                        to="/search"
                     >
                         Search
                     </NavLink>
@@ -42,7 +42,7 @@ export const Navbar = () => {
                 <ul className="navbar-nav justify-content-end">
                     <NavLink
                         className="nav-item nav-link "
-                        to="/Heroes-App/login">
+                        to="/login">
                         Logout
                     </NavLink>
                 </ul>

@@ -9,7 +9,7 @@ const AppRouter = () => {
         <Router>
             <div>
                 <Routes>
-                    <Route exact path = "/Heroes-App/login" element = { <LoginPage />} />
+                    <Route exact path = "/login" element = { <LoginPage />} />
                     <Route path = "*" element = { <DashboardRouter />} />
                 </Routes>
             </div>
