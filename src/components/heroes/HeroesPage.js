@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react';
-import {useNavigate, useParams, Navigate, useLocation} from "react-router";
+import { useParams, Navigate} from "react-router";
 import {getHeroById} from "../../selectors/getHeroeById";
 
 
@@ -15,7 +15,6 @@ const HeroesPage = () => {
     const {superhero, alter_ego, first_appearance, characters,publisher} = hero;
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const navigate = useNavigate();
 
     const handleReturn = () => {
         window.history.back();

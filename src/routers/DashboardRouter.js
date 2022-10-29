@@ -16,7 +16,7 @@ const DashboardRouter = () => {
                 <Routes>
                     <Route exact path = "/Heroes-App/marvel" element = { <MarvelPage />} />
                     <Route exact path = "/Heroes-App/" element = { <All />} />
-                    <Route exact path = "/Heroes-App/dc/" element = { <DCPage />} />
+                    <Route exact path = "/Heroes-App/dc" element = { <DCPage />} />
                     <Route exact path = "/Heroes-App/search" element = { <SearchPage />} />
                     <Route exact path="/Heroes-App/hero/:heroeId" element={ <HeroesPage /> } />
 
