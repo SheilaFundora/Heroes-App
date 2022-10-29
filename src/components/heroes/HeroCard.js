@@ -23,7 +23,7 @@ const HeroCard = ( { id, superhero, alter_ego, first_appearance, characters} ) =
                             <small className="text-muted"> { first_appearance } </small>
                         </p>
 
-                        <Link to={ `/hero/${ id }` }>
+                        <Link to={ `/Heroes-App/hero/${ id }` }>
                             Más...
                         </Link>
 
